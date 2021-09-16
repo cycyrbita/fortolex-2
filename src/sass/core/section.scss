@@ -9,6 +9,11 @@
         background-image: url("../media/section/face.jpg");
         background-position: center top;
     }
+
+    &_warning {
+        background-color: rgb(174,29,107);
+        background-image: linear-gradient(99deg, rgba(174,29,107,1) 0%, rgba(103,28,161,1) 100%);
+    }
 }
 
 @media (max-width: 1280px) {
