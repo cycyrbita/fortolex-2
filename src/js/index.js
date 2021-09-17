@@ -59,4 +59,13 @@ $(document).ready(function () {
             timerId = setTimeout(tick, 1000);
         }, 1000);
     };
+
+    $('.step__item').click(function() {
+        $('.step__item').not($(this).addClass('active')).removeClass('active')
+    })
+
+    $('.step__close').click(function(e) {
+        e.stopPropagation()
+        $(this).parents('.step__item').removeClass('active')
+    })
 });
