@@ -25,6 +25,11 @@
         background-position: right top;
         overflow: hidden;
     }
+
+    &_secret {
+        background-color: rgb(230,188,211);
+        background-image: linear-gradient(0deg, rgba(230,188,211,1) 0%, rgba(255,255,255,1) 100%);
+    }
 }
 
 @media (max-width: 1280px) {
