@@ -30,6 +30,12 @@
         background-color: rgb(230,188,211);
         background-image: linear-gradient(0deg, rgba(230,188,211,1) 0%, rgba(255,255,255,1) 100%);
     }
+
+    &_transformation {
+        background-color: rgb(108,28,157);
+        background-image: url("../media/section/transformation.png"), linear-gradient(90deg, rgba(108,28,157,1) 0%, rgba(168,29,112,1) 100%);
+        background-position: center center;
+    }
 }
 
 @media (max-width: 1280px) {
