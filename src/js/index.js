@@ -6,21 +6,16 @@ $(document).ready(function () {
         loop: true,
         autoHeight: true,
         margin: 40,
-        stagePadding: 20,
         responsive : {
             320 : {
-                items: 1,
-                margin: 40,
-                stagePadding: 20,
-                nav: true
+                items: 1
             },
 
             768 : {
-                items: 2,
-                nav: false
+                items: 2
             },
 
-            1310 : {
+            1280 : {
                 items: 3
             }
         }
