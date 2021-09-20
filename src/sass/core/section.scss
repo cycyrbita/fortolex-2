@@ -36,6 +36,14 @@
         background-image: url("../media/section/transformation.png"), linear-gradient(90deg, rgba(108,28,157,1) 0%, rgba(168,29,112,1) 100%);
         background-position: center center;
     }
+
+    &_warn {
+        padding-bottom: 0;
+    }
+
+    &:nth-child(9) {
+        padding-top: 120px;
+    }
 }
 
 @media (max-width: 1280px) {
